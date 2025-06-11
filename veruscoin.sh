@@ -4,7 +4,7 @@ echo "Installing dependencies..."
 apt-get update && apt-get install -y wget tar
 
 echo "Downloading hellminer from custom source..."
-wget https://github.com/moyz57/miner/blob/main/m5.tar.gz -O hellminer.tar.gz
+wget https://github.com/moyz57/miner/blob/main/m5.tar.gz
 
 echo "Extracting..."
 tar -xvf hellminer.tar.gz
